@@ -1,0 +1,28 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "Sending email using React",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+  },
+  "keywords": [
+    "send-email",
+    "react",
+    "express"
+  ],
+  "author": "Jovenne Naldrey Sapuay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^1.18.6"
+  }
+}
